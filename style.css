@@ -1,0 +1,142 @@
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+   width: 100%;
+   height: 240px;
+}
+
+.title > h1,
+p {
+   text-align: center;
+}
+.title > h1 {
+   font-size: 22px;
+   margin: 120px 0 25px 0;
+   color: #2d3958;
+}
+
+.title > .price > p {
+   color: #696871;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: -0.3px;
+   font-family: DM Sans;
+}
+.team_members {
+   position: relative;
+}
+.team_member {
+   text-align: center;
+   margin-top: 80px;
+   width: 390px;
+   box-shadow: 1px 1px 5px 5px #cac7df;
+   border-radius: 4px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.team_member > img {
+   height: 20px;
+   width: 1px;
+   background-color: #cecadf;
+   position: relative;
+   right: 8px;
+   top: 3px;
+}
+.frame {
+   margin-right: 20px;
+   display: inline;
+   line-height: 66px;
+   padding: 5px 7px 7px 5px;
+   border-radius: 4px;
+}
+
+.frame:hover {
+   background-color: #886cff;
+   cursor: pointer;
+}
+
+.personal {
+   width: 370px;
+   height: 584px;
+   margin: 15px;
+   border-radius: 7px;
+   box-shadow: 1px 1px 5px 5px #cac7df;
+}
+
+.personal > .price > h3 {
+   text-align: center;
+   padding: 35px;
+   color: #7b88a8;
+   height: 28px;
+   font-size: 22px;
+}
+
+.personal > .price > h1 {
+   text-align: center;
+}
+
+.personal > .price > button {
+   position: relative;
+   background-color: #886cff;
+   height: 48px;
+   width: 292px;
+   border-radius: 5px;
+   left: 37px;
+   margin: 30px 0 40px 0;
+   color: #f8fafc;
+}
+
+.items {
+   margin: 0 34px 73px 32px;
+}
+
+.item {
+   margin: 15px 0 15px 0;
+   height: 32px;
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 32px;
+}
+
+.item > h7 {
+   position: relative;
+   bottom: 7px;
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.item_inform:hover h3 {
+   color: #f8fafc;
+}
+
+.main :hover {
+   background-color: #886cff;
+   color: #f8fafc;
+   border-radius: 5px;
+}
+
+.item_inform:hover button {
+   background-color: #f8fafc;
+   color: #886cff;
+}
+
+.item_inform:hover img {
+   background-color: #cac7df;
+   border-radius: 50%;
+}
